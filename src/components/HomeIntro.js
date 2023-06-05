@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const HomeIntro = () => {
@@ -16,8 +17,8 @@ const HomeIntro = () => {
                         sint. Velit officia consequat duis enim velit mollit. Exercitation
                         veniam consequat sunt nostrud amet.
                     </p>
-                    <a href='#' className='bg-primary-500 px-3 py-2 rounded text-white text-lg hover:bg-blue-600
-                    '>Check my work</a>
+                    <Link href='/work' className='bg-primary-500 px-3 py-2 rounded text-white text-lg hover:bg-blue-600
+                    '>Check my work</Link>
                 </div>
                 <span className='m-5 inline-block before:w-full before:aspect-square before:-left-1.5 before:top-1.5 before:block before:absolute before:bg-primary-500 relative z-0 before:rounded-full'>
                     <Image
