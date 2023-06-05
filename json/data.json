@@ -1,0 +1,20 @@
+{
+    "work": [
+        {
+            "title": "Example piece one",
+            "image": "https://placedog.net/250",
+            "date": "2022-09-12",
+            "category": "Dashboard",
+            "technologies": "Laravel, TailwindCss",
+            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        },
+        {
+            "title": "Example piece two",
+            "image": "https://placedog.net/250",
+            "date": "2022-09-13",
+            "category": "Backend",
+            "technologies": "Laravel, Apline",
+            "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+        }
+    ]
+}
