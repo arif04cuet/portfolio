@@ -12,6 +12,7 @@ export function getAllPosts() {
                 ...frontmatter,
             };
         })
+        .filter(({ slug }) => slug != 'about')
         .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
 
     return posts;
@@ -25,6 +26,7 @@ export function getPostBySlug(slug) {
         content,
     };
 }
+
 
 export function allWorks() {
     const data = fs.readFileSync('json/data.json', 'utf-8');

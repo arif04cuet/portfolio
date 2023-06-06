@@ -8,7 +8,7 @@ const HomeBlog = ({ posts }) => {
     return (
         <div className='bg-sky-50'>
             <div className='px-6'>
-                <div className='max-w-4xl mx-auto py-10'>
+                <div className='max-w-5xl mx-auto py-10'>
                     <SectionHeader
                         title="Recent Posts"
                         link="/blog"

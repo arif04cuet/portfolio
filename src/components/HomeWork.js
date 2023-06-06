@@ -6,7 +6,7 @@ const HomeWork = ({ works }) => {
     return (
         <div className='my-10'>
             <div className='px-6'>
-                <div className='max-w-4xl mx-auto'>
+                <div className='max-w-5xl mx-auto'>
                     <SectionHeader
                         title="Recent Works"
                         link="/work"

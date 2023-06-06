@@ -5,10 +5,10 @@ import React from 'react'
 const Header = () => {
 
     const router = useRouter();
-    const routes = ["Blog", "Work", "Contact"];
+    const routes = ["Blog", "Work", "About"];
 
     return (
-        <header className='px-6 md:px-0 container mx-auto flex justify-between h-24 items-center max-w-4xl'>
+        <header className='px-6 md:px-0 container mx-auto flex justify-between h-24 items-center max-w-5xl'>
             <Link href='/'>
                 <svg
                     aria-label='Daily Dev Tips logo'
